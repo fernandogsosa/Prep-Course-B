@@ -56,14 +56,15 @@ function devolverString(str) {
     // Tu código:
     if (str1.lenght === str2.lenght) {
     return true }
-else return false
+else { 
+  return false }
   }
   
   function menosQueNoventa(num) {
     // Devuelve "true" si el argumento de la función "num" es menor que noventa
     // De lo contrario, devuelve "false"
     // Tu código:
-    if (num > 90) {
+    if (num < 90) {
       return true
     } else {
       return false
@@ -114,13 +115,13 @@ else return false
     // Devuelve el valor de "num" elevado al cuadrado
     // ojo: No es raiz cuadrada!
     // Tu código:
-    return math.pow(num,2)
+    return num ** 2
   }
   
   function elevarAlCubo(num) {
     // Devuelve el valor de "num" elevado al cubo
     // Tu código:
-    return math.pow(num,3)
+    return num ** 3
   }
   
   function elevar(num, exponent) {
@@ -157,11 +158,11 @@ else return false
     if (num > 0) {
       return "Es positivo"
     }
-    else if (num === 0) {
-      return false
+    else if (num < 0) {
+      return "Es negativo"
     }
     else {
-      return "Es negativo"
+      return false
     }
   }
   
