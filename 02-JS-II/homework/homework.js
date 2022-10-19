@@ -155,10 +155,10 @@ else {
     //Si el número es negativo, devolver ---> "Es negativo"
     //Si el número es 0, devuelve false
     // Tu código:
-    if (num > 0) {
+    if (numero > 0) {
       return "Es positivo"
     }
-    else if (num < 0) {
+    else if (numero < 0) {
       return "Es negativo"
     }
     else {
